@@ -49,7 +49,7 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
  <img width="530" alt="스크린샷 2022-09-07 오후 4 01 17" src="https://user-images.githubusercontent.com/108469115/188810938-dbe42146-b883-4277-a878-304d90dc0027.png">
   <img width="497" alt="스크린샷 2022-09-07 오후 4 00 17" src="https://user-images.githubusercontent.com/108469115/188810606-5ef9faeb-6b7b-4d5d-ba85-b9c7f3690052.png">
   
-  실행결과 : 머물었던 HTML페이지 class에는 색깔 그레이를 지정하고, 머물고 현재 페이지, CSS에는 레드라고 지정하였다. 
+  실행결과 : 머물었던 HTML페이지 class에는 색깔 그레이를 지정하고, 머물고 있는 현재 페이지 CSS에는 레드라고 지정하였다. 
  
  <img width="140" alt="스크린샷 2022-09-07 오후 4 30 31" src="https://user-images.githubusercontent.com/108469115/188816589-87a281e0-e719-490e-87f2-1e1b724e5e4b.png">
 
