@@ -9,7 +9,7 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
 
 ## css의 style태그를 사용하면 모든 문구를 한번에 변경할 수 있다. 
 
-```html
+```css
 색상은 빨강, 밑줄은 없이
 <style>
  a {
@@ -23,7 +23,7 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
  ```
 <img width="373" alt="스크린샷 2022-09-07 오후 3 03 34" src="https://user-images.githubusercontent.com/108469115/188800570-36cc2109-2088-44cf-8004-7b52ac717dfa.png">
 
-```
+```css
 <h1> 위치의 속성을 변경할 때 : 글씨 크기는 45px, 가운데 정렬
  <style>
   h1 {
