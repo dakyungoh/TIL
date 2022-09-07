@@ -1,7 +1,7 @@
 # 9월 7일
 
+html을 사용하여 폰트 색상을 변경할 때는 변경할 모든 문구에 ```<font color="red">```를 입력해야 한다. 
 ```html
-html을 사용하여 폰트 색상을 변경할 때는 변경할 모든 문구에 <font color="red">를 입력해야 한다. 
 Hypertext Markup Language (HTML) is the standard markup language for <font color="red">creating</font> web pages.
 CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font color="red">JavaScript</font>.
 ```
@@ -9,16 +9,17 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
 
 ## css의 style태그를 사용하면 모든 문구를 한번에 변경할 수 있다. 
 
-```css
 색상은 빨강, 밑줄은 없이
+```css
 <style>
  a {
  color:red;
  text-decoration: none;
   }
- 
+ ```
  이 때 한 단어 및 문장만 변경하고 싶을 때에는 html 안에 style 속성을 사용하여 변경할 수 있다. 
  단, 새미클론(;)을 사용하여 구분을 지어주어야 한다. 
+ ```
  <li><a href="2.html"style="color:orange;text-decoration:underline">CSS</a></li>
  ```
 <img width="373" alt="스크린샷 2022-09-07 오후 3 03 34" src="https://user-images.githubusercontent.com/108469115/188800570-36cc2109-2088-44cf-8004-7b52ac717dfa.png">
@@ -33,7 +34,6 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
   ```
   
  ## css에서 html의 속성을 주는 방법을 알아보자.
- ```
  용어 : 
  class : 어떤 의도에 의해 그룹으로 묶을 때 사용한다.  
   - ex) class값이 saw일 때는 .saw를 사용한다.
@@ -46,6 +46,11 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
   1. id 선택자
   2. class 선택자
   3. 태그 선택자 
- ```
  <img width="530" alt="스크린샷 2022-09-07 오후 4 01 17" src="https://user-images.githubusercontent.com/108469115/188810938-dbe42146-b883-4277-a878-304d90dc0027.png">
   <img width="497" alt="스크린샷 2022-09-07 오후 4 00 17" src="https://user-images.githubusercontent.com/108469115/188810606-5ef9faeb-6b7b-4d5d-ba85-b9c7f3690052.png">
+  
+  실행결과 : 머물었던 HTML페이지 class에는 색깔 그레이를 지정하고, 머물고 현재 페이지, CSS에는 레드라고 지정하였다. 
+  
+  <img width="905" alt="스크린샷 2022-09-07 오후 4 14 33" src="https://user-images.githubusercontent.com/108469115/188813306-aa22c72c-4014-46a7-9d84-07caf68353f8.png">
+
+  
