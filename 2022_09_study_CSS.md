@@ -40,3 +40,29 @@ h1 {
   text-aline: center;
 }
 ```
+
+<h1> 위치의 속성을 변경할 때 : 글씨 크기는 45px, 가운데 정렬
+ <style>
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  ```
+  
+ ## css에서 html의 속성을 주는 방법을 알아보자.
+ ```
+ 용어 : 
+ class : 어떤 의도에 의해 그룹으로 묶을 때 사용한다.  
+  - ex) class값이 saw일 때는 .saw를 사용한다.
+  
+ id 선택자 : 우선 순위가 높은 것을 지정할 때 사용한다.
+  - ex) id값이 active일 때는 #active를 사용한다. 
+ 
+ 이 때 값을 작성하는 순서가 중요하다. 
+ 태그 선택자 < class 선택자 (가장 마지막에 등장하는 선택자가 우선순위가 높다) < id선택자(단 한번만 등장해야 한다)
+  1. id 선택자
+  2. class 선택자
+  3. 태그 선택자 
+ ```
+ <img width="530" alt="스크린샷 2022-09-07 오후 4 01 17" src="https://user-images.githubusercontent.com/108469115/188810938-dbe42146-b883-4277-a878-304d90dc0027.png">
+ <img width="497" alt="스크린샷 2022-09-07 오후 4 00 17" src="https://user-images.githubusercontent.com/108469115/188810606-5ef9faeb-6b7b-4d5d-ba85-b9c7f3690052.png">
