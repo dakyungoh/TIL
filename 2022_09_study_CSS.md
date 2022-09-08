@@ -53,5 +53,43 @@ CSS is a cornerstone technology of the World Wide Web, alongside HTML and <font 
  
  <img width="140" alt="스크린샷 2022-09-07 오후 4 30 31" src="https://user-images.githubusercontent.com/108469115/188816589-87a281e0-e719-490e-87f2-1e1b724e5e4b.png">
 
+# 9월 8일
 
-  
+박스 모델은 블록 레벨 요소(혼자 한 줄을 차지하는 것)와 인라인 레벨 요소(한 줄에 여러 개를 표시 가능)에 따라 나열 방법이 달라진다.  
+```css
+/*
+block level element
+*/
+<h1>, <div>, <p> 등
+```
+```css
+/*
+inline level element
+*/
+<span>, <img>, <strong> 등
+```
+박스 모델은 콘텐츠 영역, 박스와 콘텐츠 영역 사시의 여백인 패딩(padding), 박스의 테두리(border), 여러 박스 모델 사이의 여백인 마진(margin)등의 요소로 구성된다.
+박스를 만드는 법 : {border : 숫자px solid 색깔;}
+콘텐츠 영역의 크기를 지정하는 속성
+ - width : 너비
+ - height : 높이
+ 
+<img width="350" alt="스크린샷 2022-09-08 오후 2 42 01" src="https://user-images.githubusercontent.com/108469115/189043409-904d21ca-c8fc-4c09-9424-4d8f4171d361.png">
+<img width="357" alt="스크린샷 2022-09-08 오후 2 42 51" src="https://user-images.githubusercontent.com/108469115/189043472-bc72519e-33d4-43c3-a1b7-9df25e62cd3e.png">
+
+## 그리드를 사용하여 레이아웃을 설정해보자. 
+1. div를 활용하여 그리드를 설정할 id를 정한다
+ ```css
+ ex)<div id="grid">
+ ```
+2. id 값을 활용하여 설정값을 지정해본다. 이 때 colums는 열을 의미한다. 1fr은 열의 크기를 지정할 수 있다. 
+```css
+ #grid{
+    border : 5px solid gray;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+      }
+ ```
+ <img width="576" alt="스크린샷 2022-09-08 오후 3 59 30" src="https://user-images.githubusercontent.com/108469115/189055976-f20d2fcc-4b4b-427c-899d-0e7c158d25f1.png">
+ <img width="623" alt="스크린샷 2022-09-08 오후 3 59 49" src="https://user-images.githubusercontent.com/108469115/189056025-df5672e8-5552-4fc5-bf7c-e0bf564f7904.png">
+
