@@ -93,3 +93,24 @@ inline level element
  <img width="576" alt="스크린샷 2022-09-08 오후 3 59 30" src="https://user-images.githubusercontent.com/108469115/189055976-f20d2fcc-4b4b-427c-899d-0e7c158d25f1.png">
  <img width="623" alt="스크린샷 2022-09-08 오후 3 59 49" src="https://user-images.githubusercontent.com/108469115/189056025-df5672e8-5552-4fc5-bf7c-e0bf564f7904.png">
 
+## 미디어 쿼리를 이용해서 반응형 디자인을 구현해보자.
+미디어 쿼리는 CSS에서 어떤 스타일을 선택적으로 적용하고 싶을 때 사용한다. 
+```css
+@media (조건) {
+  스타일
+}
+```
+ex) 조건 : div값이 최소 800px를 넘어가면 화면에서 사라지게 만들어라! 
+```
+@media (min-width:800px) {
+            div{display: none;
+            }   
+```
+
+## 외부 리소스 연결 요소 
+```css
+<link rel="속성값" href="링크 및 파일">
+
+ex)
+<link rel="stylesheet" href="style.css">
+```
