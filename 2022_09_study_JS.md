@@ -34,6 +34,11 @@ HTML이 정적이라면 Java Script는 동적이다. (계산기처럼 작동할 
 - onclick="alert('hi')" : 클릭을 했을 때 'hi'라는 경고창을 넣는 태그(onclick의 속성값은 JS가 들어와야 한다)
 - input type="text" : 글씨를 입력할 수 있는 태그
 - onchange="alert('changed')" : 요소값을 변경하는 태그로서 클릭을 했을 때 'changed'라는 경고창으로 변경된다. 
-- onkeydown="alert('key down!')" : 키를 누르면 'key down!'라는 경고창이 뜬다. 
+- onkeydown="alert('key down!')" : 키를 누르면 'key down!'라는 경고창이 뜬다.
+
+ex) onkeydown event의 결과 :
 
 <img width="1009" alt="스크린샷 2022-09-13 오후 10 37 59" src="https://user-images.githubusercontent.com/108469115/189916011-7feb3165-21c8-4b21-a309-3a98618e41f1.png">
+
+## Console (콘솔) 
+
