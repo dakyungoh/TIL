@@ -40,5 +40,26 @@ ex) onkeydown event의 결과 :
 
 <img width="1009" alt="스크린샷 2022-09-13 오후 10 37 59" src="https://user-images.githubusercontent.com/108469115/189916011-7feb3165-21c8-4b21-a309-3a98618e41f1.png">
 
-## Console (콘솔) 
+# 9월 14일
 
+## Console (콘솔) 
+데이터 타입 - 문자열과 숫자
+- 산술 연산자 : 수식에서 사용되는 사칙연산 '+,-,*,/'을 의미한다. 
+- 문자열(string) : "글자" , '글자' 
+- 숫자 1+1 =2 / 문자열 "1"+"1"= "11"   
+- 문자열(string) : "글자" , '글자' 
+ex) 'Hello World' . length : ''Hello World'의 글자수를 알 수 있다. 
+ex) 'Hello World' . toUpperCase() : ''Hello World'를 'HELLO WORLD' 라고 대문자로 바꿔준다. 
+ex) 'Hello World' . indexOF('world') = 6 : ''Hello World'에서 'world'는 6번째에 있다. 
+ex) '       Hello World      ' . trim() = 'Hello World" : 공백을 없애준다. 
+
+## 변수와 대입 연산자 
+```
+x = 1;
+x : 변수(variable) 
+= : 대입연산자 
+변수의 반대말은 상수(constant)
+```
+ex) var name = 'kongdol'; 
+-> 이름을 'kongdol'로 바꾸어 달라! 
+수정할 이름에 +name+ 이라고 작성하면 된다. 
