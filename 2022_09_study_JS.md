@@ -2,7 +2,7 @@
 HTML과 Java Script의 만남
 
 ## script 태그
-```
+```html
 <h1>Java Script</h1>
 <script>
  document.write('hello world');
@@ -42,8 +42,7 @@ ex) onkeydown event의 결과 :
 
 # 9월 14일
 
-## Console (콘솔) 
-데이터 타입 - 문자열과 숫자
+## 데이터 타입 - 문자열(string)과 숫자(number)
 - 산술 연산자 : 수식에서 사용되는 사칙연산 '+,-,*,/'을 의미한다. 
 - 문자열(string) : "글자" , '글자' 
 - 숫자 1+1 =2 / 문자열 "1"+"1"= "11"   
@@ -63,3 +62,23 @@ x : 변수(variable)
 ex) var name = 'kongdol'; 
 -> 이름을 'kongdol'로 바꾸어 달라! 
 수정할 이름에 +name+ 이라고 작성하면 된다. 
+
+# 9월 16일
+
+## 제어할 태그 선택하기
+'night' 버튼을 눌렀을 때 배경색깔은 검정, 글자색깔은 하얀색으로 만든다. 
+```javascript
+<input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+ ">
+```
+결과 : 
+
+<img width="739" alt="스크린샷 2022-09-16 오후 9 28 59" src="https://user-images.githubusercontent.com/108469115/190638864-825f4ffc-aaf6-4cd5-9f19-f2de3b8b8706.png">
+
+## 데이터 타입 - boolean(논리학에서 참과 거짓을 다루는 용어)과 비교 연산자
+boolean : true & false를 구분할 수 있는 데이터 타입
+
+<img width="342" alt="스크린샷 2022-09-16 오후 10 00 07" src="https://user-images.githubusercontent.com/108469115/190644635-40e2a654-b2c9-446a-93ac-1fbe4341fa5c.png">
+여기서 1&lt2는 1<2와 같은 뜻이다. 
